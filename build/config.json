@@ -1,0 +1,31 @@
+{
+    "url": "https://711ne61stct.com/",
+    "agent": {
+      "name": "Aubrey Martin",
+      "phone": "503.443.8889",
+      "email": "aubrey@aubreymartin.com"
+    },
+    "full_address": {"street": "711 NE 61st Ct", "city": "Hillsboro", "state":"Oregon", "zipcode": "97124"},
+    "display_address": "711 NE 61st Ct",
+    "property": {
+      "listing_price": "$439,900",
+      "bedrooms": "4",
+      "baths": "2.5",
+      "sq_feet": "1808",
+      "lot_size": "3049",
+      "rmls": "19572722",
+      "built_in": "2002",
+      "blurb": "Delightful home on a corner lot in the coveted Orenco Gardens neighborhood! Home features 4bedrooms/2.5bath with a covered patio and landscaped fenced yard, large living room with fireplace, kitchen with a cooking island with gas stove, and built-in cabinetry in the dining room. There are three bedrooms on the upper level and an additional bedroom on the main level that can easily be converted into a home office! Home has newer exterior paint and recent exterior maintenance, engineered hardwood floors, granite countertops, new interior paint, and central AC. Easy access to Max, freeway, eateries, shops & hi-tech companies, in an excellent school district!",
+      "ammenities": [
+        
+      ]
+    },
+    "image_count": 25,
+    "opens": [
+    ],
+    "status": "",
+    "google": {
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.1034382563294!2d-122.9200516844404!3d45.52812397910173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950f8ed90dd6b7%3A0xa2805a6c840bd9d7!2s711%20NE%2061st%20Ct%2C%20Hillsboro%2C%20OR%2097124!5e0!3m2!1sen!2sus!4v1568330443932!5m2!1sen!2sus",
+        "youtube":"https://www.youtube.com/embed/5i4fngqdO80"
+    }
+  }

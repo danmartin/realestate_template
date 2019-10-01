@@ -16,15 +16,34 @@ class Footer extends React.Component {
         <footer className="position-relative overflow-hidden p- p-md-3 m-md-1 text-center">
             <div className="row justify-content-md-center mb-5">
                 <div className=" col col-12 col-lg-2">
+                  <div>
                     <img src="/images/face.jpg" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" />
+                  </div>
+                  <div className="text-center social">
+                    <a href="https://www.facebook.com/aubreymartinkwsc/" className="facebook" title="Aubrey Martin Facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/aubreymartin76" className="twitter" title="Aubrey Martin Twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/aubreymartin76/" className="instagram" title="Aubrey Martin Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aubrey-martin-3572b6b8/" className="linkedin" title="Aubrey Martin LinkedIn"><i class="fab fa-linkedin"></i></a>
+                  </div>
                 </div>
                 <div className=" col text-center col-md-7 display-5 font-weight-bold pt-4">
                     <div className="row justify-content-md-center">
                         <div className="col col-md-9">
-                            <img src="/images/Aubrey_logo.png" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" />
+                          <a href="http://aubreymartin.com" title="Aubrey Martin Portland Oregon Real Estate"><img src="/images/Aubrey_logo.png" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" /></a>
                         </div>
                     </div>
-                    <h3><a href={"mailto:"+this.props.config_data.agent.email}>{this.props.config_data.agent.email}</a> | <span className="d-none d-sm-inline"><i className="fas fa-phone"></i> {this.props.config_data.agent.phone}</span><span className="d-sm-block d-md-none"><a href={"tel:"+this.props.config_data.agent.phone}><i className="fas fa-phone"></i> {this.props.config_data.agent.phone}</a></span></h3>
+                    <div className="row justify-content-md-center">
+                      <div className="col col-md-6">
+                      <ul className="contacts text-left list-unstyled">
+                        <li><i class="fas fa-globe"></i> <a href="http://aubreymartin.com">http://AubreyMartin.com</a></li>
+                        <li><i class="far fa-envelope"></i> <a href={"mailto:"+this.props.config_data.agent.email}>{this.props.config_data.agent.email}</a></li>
+                        <li>
+                          <span className="d-none d-sm-inline"><i className="fas fa-phone"></i> {this.props.config_data.agent.phone}</span>
+                          <span className="d-sm-block d-md-none"><a href={"tel:"+this.props.config_data.agent.phone}><i className="fas fa-phone"></i> {this.props.config_data.agent.phone}</a></span>
+                        </li>
+                      </ul>
+                      </div>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -33,5 +52,3 @@ class Footer extends React.Component {
   }
   
 export default Footer;
-
-

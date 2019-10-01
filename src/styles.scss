@@ -11,6 +11,45 @@
     }
 }
 
+.social {
+    font-size:2rem;
+    a {
+        color: #666;
+        margin:0.25rem;
+    }
+    a.facebook{
+        &:hover, &active {
+            color:#3b5998;
+        }
+    }
+    a.twitter{
+        &:hover, &active {
+            color:#38A1F3;
+        }
+    }
+    a.instagram{
+        &:hover, &active {
+            color:#231F20;
+        }
+    }
+    a.linkedin{
+        &:hover, &active {
+            color:#0077B5;
+        }
+    }
+}
+
+.contacts {
+    font-size: 1.8rem;
+    font-weight:500;
+    i {
+        font-size: 1.2em;
+        margin-right:1rem;
+    }
+    a {
+        color: #666;
+    }
+}
 .status_overlay{
 
     position: absolute;

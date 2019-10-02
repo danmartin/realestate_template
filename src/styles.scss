@@ -145,9 +145,20 @@ iframe {
     }
 } 
 
+
+footer {
+ background-color:#f2f2f2;
+ padding-top:2em;
+ margin-top:2em;
+
+}
+
 @media (max-width: 768px) {
     .status_overlay h2 {
         font-size: 1.5rem;
         font-weight: 800;
+    }
+    .contacts {
+        font-size: 1.4rem;
     }
 }

@@ -13,11 +13,11 @@ class Footer extends React.Component {
     render() {
       
       return (
-        <footer className="position-relative overflow-hidden p- p-md-3 m-md-1 text-center">
+        <footer className="position-relative overflow-hidden  text-center">
             <div className="row justify-content-md-center mb-5">
                 <div className=" col col-12 col-lg-2">
                   <div>
-                    <img src="/images/face.jpg" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" />
+                    <img src="/images/face.jpg" className="img-fluid rounded-circle" alt="Aubrey Martin Real Estate Agent Portland Oregon" />
                   </div>
                   <div className="text-center social">
                     <a href="https://www.facebook.com/aubreymartinkwsc/" className="facebook" title="Aubrey Martin Facebook"><i class="fab fa-facebook-square"></i></a>
@@ -29,7 +29,7 @@ class Footer extends React.Component {
                 <div className=" col text-center col-md-7 display-5 font-weight-bold pt-4">
                     <div className="row justify-content-md-center">
                         <div className="col col-md-9">
-                          <a href="http://aubreymartin.com" title="Aubrey Martin Portland Oregon Real Estate"><img src="/images/Aubrey_logo.png" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" /></a>
+                          <a href="http://aubreymartin.com" title="Aubrey Martin Portland Oregon Real Estate"><img src="/images/watermark.png" className="img-fluid" alt="Aubrey Martin Real Estate Agent Portland Oregon" /></a>
                         </div>
                     </div>
                     <div className="row justify-content-md-center">

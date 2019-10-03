@@ -121,6 +121,7 @@ iframe {
         position:absolute;
         right:20px;
         top:50%;
+        transform: translateY(-50%);
         overflow:hidden;
         color:#fff;
         font-size:6rem;
@@ -130,6 +131,7 @@ iframe {
         position:absolute;
         left:20px;
         top:50%;
+        transform: translateY(-50%);
         overflow:hidden;
         color:#fff;
         font-size:6rem;

@@ -16,7 +16,7 @@ class PropertyDetail extends React.Component {
         <div>
             <div className="position-relative overflow-hidden p-md-3 m-md-1 text-center">
                 <div className="col-md-8 p-lg-8 mx-auto my-5"> 
-                <h5 className="display-4 font-weight-bold">{this.props.config_data.display_address}</h5>
+                <h5>{this.props.config_data.display_address}</h5>
                 <h4 className="display-5 font-weight-light text-muted">{this.props.config_data.full_address.city}, {this.props.config_data.full_address.state} {this.props.config_data.full_address.zipcode}</h4>
                 <h6 className="display-4 text-secondary">{this.props.config_data.property.listing_price}</h6>
                 </div>
@@ -37,7 +37,7 @@ class PropertyDetail extends React.Component {
           
             <div className="position-relative overflow-hidden text-center">
                 <div className="col-md-8 mx-auto my-5 blurb"> 
-                <p className="pb-5">{this.props.config_data.property.blurb}</p>
+                <p className="pb-5 blurby">{this.props.config_data.property.blurb}</p>
                 <ul>
                     { this.props.config_data.property.ammenities.map(({item, id}) =>
                         <li key={id}>{item}</li>

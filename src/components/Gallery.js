@@ -65,8 +65,8 @@ class Gallery extends React.Component {
                 ) } 
                 {this.state.show ? (
                     <div className="overlay overlay-effect">
-                        {this.state.image_id > 1 ? (<button type="button" className="left-arrow" onClick={() => {this.previousImage(this.state.image_id)}}>Previous</button>) :null}
-                        {this.state.image_id < this.state.images.length ? (<button type="button" className="right-arrow" onClick={() => {this.nextImage(this.state.image_id)}}>Forward</button>) :null}
+                        {this.state.image_id > 1 ? (<a href="#foo" className="left-arrow" onClick={() => {this.previousImage(this.state.image_id)}}><i class="fas fa-angle-left"></i></a>) :null}
+                        {this.state.image_id < this.state.images.length ? (<a href="#foo" className="right-arrow" onClick={() => {this.nextImage(this.state.image_id)}}><i class="fas fa-angle-right"></i></a>) :null}
                         <button type="button" className="close"  onClick={() => {this.toggleModal(0)}}>Close</button>
                         <div className="helper">
                             <img data-id={this.state.image_id} src={this.state.image.image}  alt={this.props.config_data.display_address} />
@@ -79,5 +79,3 @@ class Gallery extends React.Component {
 }
 
 export default Gallery;
-
-

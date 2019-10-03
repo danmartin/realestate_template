@@ -2,6 +2,10 @@
     text-align:left;
     font-size:1.5em
 }
+.blurby {
+    font-size:1.2em;
+    font-weight:300;
+}
 .open-hold {
     .opens {
         padding:1em;
@@ -113,34 +117,22 @@ iframe {
         outline:none;
         color:transparent;
     }
-    .right-arrow {
-        width:60px;
-        height:63px;
+    a.right-arrow {
         position:absolute;
         right:20px;
         top:50%;
         overflow:hidden;
-        border:none;
-        background: url(/images/arrow-right.png) no-repeat center center;
-        text-indent:200%;
-        outline:none;
-        color:transparent;
-        opacity: 0.5;
+        color:#fff;
+        font-size:6rem;
         z-index:1025;
     }
-    .left-arrow {
-        width:60px;
-        height:63px;
+    a.left-arrow {
         position:absolute;
         left:20px;
         top:50%;
         overflow:hidden;
-        border:none;
-        background: url(/images/arrow-left.png) no-repeat center center;
-        text-indent:200%;
-        outline:none;
-        color:transparent;
-        opacity: 0.5;
+        color:#fff;
+        font-size:6rem;
         z-index:1025;
     }
 } 
@@ -160,5 +152,11 @@ footer {
     }
     .contacts {
         font-size: 1.4rem;
+    }
+
+    .blurby {
+        padding: 1em;
+        font-size:.9em;
+        font-weight:300;
     }
 }

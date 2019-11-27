@@ -1,5 +1,4 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
 import './App.css';
 import './styles.scss'
 import Gallery from './components/Gallery';
@@ -41,16 +40,6 @@ class App extends React.Component {
     } else {
       return (
         <div className="App">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>{this.state.data.display_address}</title>
-            <link rel="canonical" href={this.state.data.url} />
-            <meta property="og:url"                content={this.state.data.url} />
-            <meta property="og:type"               content="website" />
-            <meta property="og:title"              content={this.state.data.display_address} />
-            <meta property="og:description"        content={this.state.data.property.blurb} />
-            <meta property="og:image"              content="/images/fb.jpg" />
-          </Helmet>
 
           <nav className="site-header sticky-top py-1  font-weight-bold shadow-sm">
             <div className="container text-center display-5">
